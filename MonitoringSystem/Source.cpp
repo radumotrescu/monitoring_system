@@ -18,6 +18,16 @@ auto main() -> int
 	//	vibrationAlarmSystem.SoundAlarmIfNecessary();
 	//}
 
+	auto vibrationScanner = std::make_shared<VibrationScanner>();
+	Sensor vibrationSensor(vibrationScanner);	
+	auto inBetweenCondition = std::make_shared<InBetweeenCondition>(10, 50);
+	Alarm vibrationAlarm(inBetweenCondition, vibrationSensor);
+	AlarmSystem alarmSys(vibrationAlarm);
+	while (1)
+	{
+		alarmSys.SoundAlarmIfNecessary();
+	}
+
 
 
 

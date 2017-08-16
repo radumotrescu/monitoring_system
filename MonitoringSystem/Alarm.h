@@ -8,7 +8,10 @@ class Alarm {
 public:
 	Alarm() = default;
 	Alarm(std::shared_ptr<ICondition> condition, const Sensor& sensor);
-	
+	bool checkCondition()
+	{
+		return m_condition->Check(m_sensor.GetNextSensorValue());
+	}
 	~Alarm();
 };
 

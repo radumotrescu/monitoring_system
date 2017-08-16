@@ -1,5 +1,3 @@
-﻿  AlarmSystem.cpp
-c:\andrei\monitoringsystem\monitoringsystem\alarmsystem.cpp(13): error C2039: 'IsOn': is not a member of 'Alarm'
-  c:\andrei\monitoringsystem\monitoringsystem\alarm.h(5): note: see declaration of 'Alarm'
-  Alarm.cpp
-  Generating Code...
+﻿  Source.cpp
+  MonitoringSystem.vcxproj -> C:\andrei\MonitoringSystem\Debug\MonitoringSystem.exe
+  MonitoringSystem.vcxproj -> C:\andrei\MonitoringSystem\Debug\MonitoringSystem.pdb (Full PDB)
