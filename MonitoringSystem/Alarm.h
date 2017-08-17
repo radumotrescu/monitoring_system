@@ -1,17 +1,21 @@
-#pragma once
+#ifndef _ALARM_H_
+#define _ALARM_H_
+
 #include "Sensor.h"
 #include "IScanner.h"
 #include "ICondition.h"
+
 class Alarm {
-	const Sensor& m_sensor;
-	std::shared_ptr<ICondition> m_condition;
+
 public:
-	Alarm() = default;
 	Alarm(std::shared_ptr<ICondition> condition, const Sensor& sensor);
-	bool checkCondition()
-	{
-		return m_condition->Check(m_sensor.GetNextSensorValue());
-	}
+	bool checkCondition();
 	~Alarm();
+
+private:
+	const Sensor m_sensor;
+	std::shared_ptr<ICondition> m_condition;
+
 };
 
+#endif

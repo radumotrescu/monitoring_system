@@ -1,7 +1,5 @@
 #include "Sensor.h"
 
-
-
 Sensor::Sensor(const Sensor& s)
 {
 	m_scanner = s.m_scanner;

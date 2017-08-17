@@ -1,11 +1,7 @@
 #include "AlarmSystem.h"
 
-
-
-
 AlarmSystem::AlarmSystem(const Alarm & alarm) :m_alarm(alarm)
 {
-
 }
 
 auto AlarmSystem::SoundAlarmIfNecessary() -> void

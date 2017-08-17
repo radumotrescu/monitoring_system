@@ -1,12 +1,9 @@
 #include "VibrationScanner.h"
 
-
-
 VibrationScanner::VibrationScanner()
 {
 	srand(time(NULL));
 }
-
 
 VibrationScanner::~VibrationScanner()
 {

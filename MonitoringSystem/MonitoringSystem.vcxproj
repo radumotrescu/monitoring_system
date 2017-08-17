@@ -144,28 +144,26 @@
   <ItemGroup>
     <ClInclude Include="Alarm.h" />
     <ClInclude Include="AlarmSystem.h" />
-    <ClInclude Include="IAlarm.h" />
     <ClInclude Include="ICondition.h" />
     <ClInclude Include="InBetweeenCondition.h" />
-    <ClInclude Include="InsideAlarm.h" />
     <ClInclude Include="IScanner.h" />
-    <ClInclude Include="LowerAlarm.h" />
     <ClInclude Include="LowerBoundCondition.h" />
     <ClInclude Include="Sensor.h" />
+    <ClInclude Include="TemperatureScanner.h" />
+    <ClInclude Include="UpperBoundCondition.h" />
     <ClInclude Include="VibrationScanner.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Alarm.cpp" />
     <ClCompile Include="AlarmSystem.cpp" />
-    <ClCompile Include="IAlarm.cpp" />
     <ClCompile Include="ICondition.cpp" />
     <ClCompile Include="InBetweeenCondition.cpp" />
-    <ClCompile Include="InsideAlarm.cpp" />
     <ClCompile Include="IScanner.cpp" />
-    <ClCompile Include="LowerAlarm.cpp" />
     <ClCompile Include="LowerBoundCondition.cpp" />
     <ClCompile Include="Sensor.cpp" />
     <ClCompile Include="Source.cpp" />
+    <ClCompile Include="TemperatureScanner.cpp" />
+    <ClCompile Include="UpperBoundCondition.cpp" />
     <ClCompile Include="VibrationScanner.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

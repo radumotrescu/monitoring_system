@@ -1,6 +1,5 @@
 #include "LowerBoundCondition.h"
 
-
 LowerBoundCondition::~LowerBoundCondition()
 {
 }

@@ -30,15 +30,6 @@
     <ClInclude Include="VibrationScanner.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="IAlarm.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="InsideAlarm.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="LowerAlarm.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="ICondition.h">
       <Filter>Header Files</Filter>
     </ClInclude>
@@ -46,6 +37,12 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="LowerBoundCondition.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="UpperBoundCondition.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TemperatureScanner.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
@@ -68,15 +65,6 @@
     <ClCompile Include="VibrationScanner.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="IAlarm.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="InsideAlarm.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="LowerAlarm.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="ICondition.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -84,6 +72,12 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="LowerBoundCondition.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="UpperBoundCondition.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TemperatureScanner.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

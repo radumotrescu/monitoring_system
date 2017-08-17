@@ -1,3 +1,15 @@
-﻿  Source.cpp
+﻿  VibrationScanner.cpp
+c:\andrei\monitoringsystem\monitoringsystem\vibrationscanner.cpp(5): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  UpperBoundCondition.cpp
+  TemperatureScanner.cpp
+  Source.cpp
+  Sensor.cpp
+  LowerBoundCondition.cpp
+  IScanner.cpp
+  InBetweeenCondition.cpp
+  ICondition.cpp
+  AlarmSystem.cpp
+  Alarm.cpp
+  Generating Code...
   MonitoringSystem.vcxproj -> C:\andrei\MonitoringSystem\Debug\MonitoringSystem.exe
   MonitoringSystem.vcxproj -> C:\andrei\MonitoringSystem\Debug\MonitoringSystem.pdb (Full PDB)

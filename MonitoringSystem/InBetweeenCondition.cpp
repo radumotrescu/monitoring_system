@@ -10,5 +10,3 @@ auto InBetweeenCondition::Check(const double value) const -> bool
 		return false;
 	return true;
 }
-
-
